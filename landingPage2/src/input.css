@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  h4,
+  ul {
+    font-family: "Righteous", serif;
+  }
+  h4 {
+    font-size: x-large;
+  }
+  h1 {
+    font-size: xx-large;
+  }
+  span {
+    color: #4883ff;
+  }
+}
+@theme {
+  --color-signupbg: #083f9b;
+  --color-signupbtnbg: #7f56d9;
+  --color-signbtnbg: #270c95;
+
+  --color-brandBG: #5007a5;
+  --color-brandBGend: #5007a6;
+
+  --color-courseBG: #d9ecff;
+  --color-courseBGend: #f0f3ff;
+
+  --color-admissionBGstart: #739fe8;
+  --color-admissionBGmiddle: #6056d8;
+  --color-admissionBGend: #4f18ca;
+
+  --color-categoryBG: #d9ecff;
+  --color-categoryBGend: #d9ecff;
+
+ 
+
+  --color-footer: #477ae3;
+  --color-footerend: #931bbd;
+
+  --color-socialBG: #8645c3;
+  --color-socialBGmidle: #544abb;
+  --color-socialBGone: #0351ae;
+}
+
+@theme {
+  --font-righteous: "Righteous", serif;
+  --font-saira: "Saira", serif;
+}
